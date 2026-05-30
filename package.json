@@ -1,0 +1,25 @@
+{
+  "name": "perspective-outline-griller",
+  "version": "0.1.0",
+  "description": "Install the Perspective Outline Griller Codex skill.",
+  "type": "module",
+  "bin": {
+    "perspective-outline-griller": "./bin/install.mjs",
+    "pog": "./bin/install.mjs"
+  },
+  "files": [
+    "SKILL.md",
+    "ADAPTER-FORMAT.md",
+    "OUTLINE-FORMAT.md",
+    "TEST-SCENARIOS.md",
+    "bin/install.mjs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Hermess/perspective-outline-griller.git"
+  }
+}
